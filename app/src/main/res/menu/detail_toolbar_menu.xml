@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemShare"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemFavorite"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="Item"
+        app:showAsAction="always" />
+</menu>

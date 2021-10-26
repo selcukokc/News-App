@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="news">News</string>
+    <string name="favorites">Favorites</string>
+    <string name="news_source">News Source</string>
+    <string name="results_could_not_be_loaded">Results could not be loaded</string>
+    <string name="author_name">Author Name</string>
+</resources>

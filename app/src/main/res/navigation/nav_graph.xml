@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.selcukokc.newsapp.view.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_feedFragment"
+            app:destination="@id/navigation_feed" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_feed"
+        android:name="com.selcukokc.newsapp.view.FeedFragment"
+        android:label="News" >
+        <action
+            android:id="@+id/action_feedFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.selcukokc.newsapp.view.DetailFragment"
+        android:label="DetailFragment" >
+        <action
+            android:id="@+id/action_detailFragment_to_sourceFragment"
+            app:destination="@id/sourceFragment" />
+        <argument
+            android:name="article"
+            app:argType="com.selcukokc.newsapp.model.Article" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.selcukokc.newsapp.view.FavoritesFragment"
+        android:label="Favorites" >
+        <action
+            android:id="@+id/action_navigation_favorites_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sourceFragment"
+        android:name="com.selcukokc.newsapp.view.SourceFragment"
+        android:label="News Source" >
+        <argument
+            android:name="newsUrl"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+</navigation>
