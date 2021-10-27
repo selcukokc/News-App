@@ -22,5 +22,3 @@ News App allows you to search, save, share news.
 
 ![Screenshot_1635290496](https://user-images.githubusercontent.com/44711480/138977889-fe2529ac-f4ba-4737-beb8-d5a4bb9c330b.png)     ![Screenshot_1635290543](https://user-images.githubusercontent.com/44711480/138977894-a8469f66-5653-4e73-b6d0-99763e2563ef.png)
 
-
-<h2>Screenshots</h2>
